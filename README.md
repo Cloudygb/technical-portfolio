@@ -1,6 +1,17 @@
 # Technical Portfolio
 
-A custom portfolio for Evan Ashburn covering cybersecurity, AWS architecture, application development, AI systems, and technical leadership.
+Live site: https://cloudygb.github.io/technical-portfolio/
+
+A custom React/Vite portfolio for Evan Ashburn covering cybersecurity, AWS architecture, application development, AI systems, and technical leadership.
+
+## Tech stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+- GitHub Pages
+- GitHub Actions
 
 ## Local development
 
@@ -15,4 +26,4 @@ npm run dev
 npm run build
 ```
 
-The site is designed for GitHub Pages and deploys from the `main` branch through `.github/workflows/deploy.yml`.
+The production workflow builds the static site and publishes it to GitHub Pages from `.github/workflows/deploy.yml`.

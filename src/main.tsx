@@ -225,10 +225,10 @@ function App() {
             <span className="kicker">Flagship systems</span>
             <h2>Product builds, cloud architecture, and application engineering.</h2>
           </div>
-          <p>Project language is grounded in the resume: direct, technical, and outcome-focused.</p>
+          <p>Selected systems that show the range of my application development, AWS architecture, product design, and technical execution.</p>
         </div>
         <div className="project-grid flagship-grid">
-          {flagshipProjects.map((project) => <ProjectCard key={project.title} project={project} large />)}
+          {flagshipProjects.map((project) => <ProjectCard key={project.title} project={project} />)}
         </div>
       </section>
 
@@ -236,9 +236,9 @@ function App() {
         <div className="section-heading split">
           <div>
             <span className="kicker">Security portfolio</span>
-            <h2>The original project links, redesigned as a richer case-study archive.</h2>
+            <h2>Security projects, labs, reports, and applied analysis.</h2>
           </div>
-          <p>These retain the important Google Docs links from the original cybersecurity portfolio while moving the presentation into a broader technical story.</p>
+          <p>Hands-on cybersecurity work covering risk assessment, incident response, SQL analysis, security controls, and practical lab documentation.</p>
         </div>
         <div className="project-grid compact-grid">
           {securityDocuments.map((project) => <ProjectCard key={project.title} project={project} />)}

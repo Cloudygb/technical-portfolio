@@ -215,21 +215,21 @@ h3 { letter-spacing: -.025em; }
   border-block: 1px solid rgba(201,197,192,.08);
 }
 .project-grid { display: grid; gap: 1.1rem; }
-.flagship-grid { grid-template-columns: repeat(6, 1fr); }
+.flagship-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .compact-grid { grid-template-columns: repeat(3, 1fr); }
 .project-card {
   position: relative;
   overflow: hidden;
   min-height: 100%;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
   transition: transform .22s ease, border-color .22s ease, background .22s ease;
 }
 .project-card:hover { transform: translateY(-5px); border-color: rgba(200,160,112,.48); }
-.project-card.large { grid-column: span 3; }
-.project-card.large:first-child { grid-column: span 6; display: grid; grid-template-columns: .42fr 1fr; }
 .project-media {
   position: relative;
-  min-height: 210px;
+  min-height: 220px;
   display: grid;
   place-items: center;
   background:
@@ -237,8 +237,8 @@ h3 { letter-spacing: -.025em; }
     linear-gradient(145deg, rgba(201,197,192,.1), rgba(20,17,15,.4));
 }
 .project-media img {
-  width: 142px;
-  height: 142px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   border-radius: 2rem;
   padding: .65rem;
@@ -256,9 +256,9 @@ h3 { letter-spacing: -.025em; }
   font-size: .78rem;
   font-weight: 900;
 }
-.project-copy { padding: 1.35rem; }
+.project-copy { padding: 1.35rem; display: flex; flex: 1; flex-direction: column; }
 .project-title-row { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
-.project-title-row h3 { font-size: clamp(1.35rem, 2vw, 2.2rem); margin: .35rem 0 .75rem; }
+.project-title-row h3 { font-size: clamp(1.35rem, 1.8vw, 1.9rem); margin: .35rem 0 .75rem; }
 time { color: var(--bronze); font-weight: 900; white-space: nowrap; font-size: .85rem; }
 .project-copy p { color: rgba(247,240,231,.76); line-height: 1.62; }
 .tech-line {
@@ -267,6 +267,7 @@ time { color: var(--bronze); font-weight: 900; white-space: nowrap; font-size: .
   line-height: 1.55;
   border-top: 1px solid rgba(201,197,192,.12);
   padding-top: .9rem;
+  margin-top: auto;
 }
 .tech-line strong { color: var(--stone); }
 .project-links { margin-top: 1rem; }
