@@ -69,7 +69,7 @@ const flagshipProjects: Project[] = [
       'Cross-platform web and mobile application concept covering secure authentication, user profiles, cloud storage, dynamic data access, UI/UX, backend planning, and AWS deployment architecture.',
     tech: 'React, React Native, Node.js, AWS Lambda, Aurora Serverless PostgreSQL, S3, CloudFront, Cognito, API Gateway, IAM, Route53, Tailwind CSS, Figma, Krita',
     date: 'May 2025',
-    image: asset('bandit-raccoon.png'),
+    image: asset('bandit-raccoon-v2.png'),
     accent: 'AWS app architecture',
   },
 ];
