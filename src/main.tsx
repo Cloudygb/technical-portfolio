@@ -37,31 +37,19 @@ const flagshipProjects: Project[] = [
       'Desktop-first game AI platform for creating, testing, packaging, and deploying structured AI-powered characters. Includes a Windows app, guided AWS setup flow, portable character packs, OpenAPI documentation, TypeScript SDK, and game-client examples.',
     tech: 'Python, TypeScript, Rust, AWS Lambda, API Gateway, DynamoDB, Amazon Bedrock, Cognito, AWS SAM, OpenAPI, Tauri, React, Vite, PowerShell, NSIS',
     date: 'May 2026',
-    image: asset('game.png'),
+    image: asset('characterforge-logo.png'),
     accent: 'AI character platform',
     links: [{ label: 'GitHub', href: 'https://github.com/Cloudygb/CharacterForge-AI' }],
   },
   {
-    title: 'Sigilore / Archivana',
+    title: 'Sigilore',
     eyebrow: 'Realtime Apps · RPG Tools · Cloud Backend',
     summary:
       'Cloud-backed dark-fantasy virtual tabletop for running and playing turn-based RPG campaigns, with campaign/world management, interactive UI components, realtime state, storage, auth, edge functions, strict TypeScript validation, and CI checks.',
     tech: 'TypeScript, React, Vite, Tailwind CSS, shadcn/ui, Supabase, PostgreSQL, Edge Functions, Bun, Vitest, Deno, GitHub Actions',
     date: 'June 2026',
-    image: asset('safe.png'),
+    image: asset('sigilore-sigil.png'),
     accent: 'Virtual tabletop system',
-    links: [{ label: 'GitHub', href: 'https://github.com/Cloudygb/archivana' }],
-  },
-  {
-    title: 'Archivana Local',
-    eyebrow: 'Local-first Desktop · Offline Runtime · Windows Installer',
-    summary:
-      'No-cloud Windows desktop runtime for a dark-fantasy virtual tabletop, replacing hosted dependencies with a local-first architecture, local backend services, import/export tooling, offline state handling, installer builds, and release verification workflows.',
-    tech: 'TypeScript, React, Vite, Tauri 2, Rust, Bun, Vitest, SQLite/local storage architecture, NSIS, GitHub Actions, PowerShell',
-    date: 'July 2026',
-    image: asset('linux.png'),
-    accent: 'Offline-first tabletop runtime',
-    links: [{ label: 'GitHub', href: 'https://github.com/Cloudygb/archivana-local' }],
   },
   {
     title: 'Custom Box Builder',
@@ -70,7 +58,7 @@ const flagshipProjects: Project[] = [
       'Custom box-design tool for WordPress/WooCommerce with frontend configuration UI, admin settings, custom box type management, minimum-order rules, server-side price calculation, validation, and reorderable product options.',
     tech: 'PHP, WordPress, WooCommerce, TypeScript, React, Vite, Tailwind CSS, shadcn/ui, jQuery UI, JavaScript, CSS',
     date: 'Oct 2025',
-    image: asset('python.png'),
+    image: asset('cute-box.png'),
     accent: 'Commerce workflow software',
     links: [{ label: 'GitHub', href: 'https://github.com/Cloudygb/box-craft-designer' }],
   },
@@ -81,9 +69,8 @@ const flagshipProjects: Project[] = [
       'Cross-platform web and mobile application concept covering secure authentication, user profiles, cloud storage, dynamic data access, UI/UX, backend planning, and AWS deployment architecture.',
     tech: 'React, React Native, Node.js, AWS Lambda, Aurora Serverless PostgreSQL, S3, CloudFront, Cognito, API Gateway, IAM, Route53, Tailwind CSS, Figma, Krita',
     date: 'May 2025',
-    image: asset('headshot.png'),
+    image: asset('bandit-raccoon.png'),
     accent: 'AWS app architecture',
-    links: [{ label: 'GitHub', href: 'https://github.com/Cloudygb/band-scout-1bc0a89b' }],
   },
 ];
 
@@ -223,14 +210,11 @@ function App() {
       <section className="section-pad profile-section">
         <div className="section-heading">
           <span className="kicker">Positioning</span>
-          <h2>Not a template. A technical operating profile.</h2>
+          <h2>Who am I?</h2>
         </div>
         <div className="positioning-card">
           <p>
-            I operate where infrastructure, security, and software meet: restoring client systems, designing AWS-backed services, writing automation, building custom applications, documenting production environments, and turning ambiguous business problems into maintainable technical systems.
-          </p>
-          <p>
-            My portfolio intentionally spans cybersecurity, cloud architecture, application development, AI systems, and technical leadership because that is how the work shows up in the real world: connected, layered, and accountable.
+            I’m a technical team lead, AWS Certified Solutions Architect, Security+ professional, and application developer who works where infrastructure, security, and software meet. I restore client systems, design AWS-backed services, build custom applications, write automation, document production environments, and turn ambiguous business problems into maintainable technical systems. I position myself as a builder who can understand the business need, architect the cloud and network foundation, secure the moving parts, and ship software that is practical enough to support in the real world.
           </p>
         </div>
       </section>
