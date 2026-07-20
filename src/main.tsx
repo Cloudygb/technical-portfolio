@@ -272,7 +272,7 @@ function App() {
             <Credential icon={<CloudCog />} title="AWS Certified Solutions Architect — Associate" detail="Issued Apr 2025 · Expires Apr 2028" />
             <Credential icon={<ShieldCheck />} title="CompTIA Security+" detail="Issued Jul 2026 · Expires Jul 2029" />
             <Credential icon={<BadgeCheck />} title="Google Cybersecurity Professional" detail="Issued Jul 2026" />
-            <Credential icon={<Award />} title="TryHackMe AI Security CTF Runner-up" detail="June 2026" />
+            <Credential icon={<Award />} title="Epsilon Pi Epsilon Honor Society Member" detail="April 2014" />
           </aside>
         </div>
       </section>
